@@ -1,0 +1,246 @@
+
+	
+@font-face{
+	font-family: 'Lato';
+	src: url(fonts\Lato\Lato-Italic.ttf);
+}
+body{
+	font-family: 'Lato';
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	font-size: 2em;
+	padding: 0px;
+	margin: 0px;
+}
+
+header{	
+	padding: 15px;
+	margin:0px;
+	margin-bottom: 5px;
+	display: flex;		
+	flex-direction: row;		
+	flex-wrap: nowrap;	
+	justify-content: center;
+	align-items: end;	
+	border: 13px solid rgb(228, 143, 69) 	
+}		
+.logo{
+	margin-top: 0.5em;
+	margin-left: 0.5em;  
+	height: 200px;
+}	
+.titulo{		
+	margin-inline-start: 50px;
+    order: 0;
+	text-align: center;
+    flex: 85 auto;    
+	background-color:rgb(245, 204, 160);
+	border: 13px solid rgb(228, 143, 69) 
+    }
+.h1titulo{
+	text-align: center;
+	justify-content: center;
+}
+.p1titulo{
+	text-align: center;
+	justify-content: center;	
+	}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	margin-top: 5px;	
+	margin-bottom: 5px;
+	padding: 10px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	font-size: 25px;	
+	background-color:rgb(228, 143, 69) 
+    			
+}
+
+.caja{
+	padding: 15px;		
+	margin: 10px;	 	
+	border-radius: 5px;					
+	background-color:rgb(245, 204, 160);		
+	font-size: 1.5em;
+}
+
+main{
+	display: block;  
+	
+	flex-direction: column;	
+	flex-wrap: nowrap;
+	width: 100%;
+	padding: 0px;
+	background-color:rgb(245, 204, 160);	
+	margin-top: 10px;	
+	
+}	
+
+.imagen {
+	display: flex;   
+    float: left;
+    margin:1rem 1rem;
+}
+h2{
+	text-align: center;
+	
+}
+article{
+	margin:1rem 1rem;
+	padding: 5px;
+	background-color:rgb(229, 193, 153);
+	
+}
+.textoarticle{
+	display: block;
+	flex-direction: column;	
+float: left;
+}
+ 
+.texto {
+	
+	padding-left: 1rem;
+	text-align: justify;
+	line-height:2rem;	
+		
+ }
+ p{
+	
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 1px;
+	margin-inline-end: 1px;
+ }
+
+aside{	
+	margin: 10px;
+	padding:0px;
+	text-align: center;	
+	background-color:rgb(228, 143, 69)
+}
+
+.cajaside{
+	display: flex;		
+	flex-direction: row;		
+	flex-wrap: wrap;	
+	justify-content: space-around;
+	align-items: center;	
+
+}
+.caja2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;	
+	padding: 0px;		
+	margin: 0px;
+	font-size: 1.5em;
+	border-radius: 5px;	
+	
+}
+footer{
+	padding: 5px;	
+	text-align: center; 	
+	font-size: 20px; 
+
+}
+
+footer div img{
+height: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    font-weight: bold;
+}
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+button {
+
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+.fotografias{
+ 	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.cajafotografias{
+	height: 350px;
+
+}
+.Libros{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+			
+}
+.cajaLibros{
+	 width:  100%;
+}
+
+	
+.Enlaces{
+	display: flex;
+	flex-direction: row;	
+    margin: 50px auto;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+   
+
+    
+.Enlaces2{
+	height: 700px;
+}
+    
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+		   
+
+
